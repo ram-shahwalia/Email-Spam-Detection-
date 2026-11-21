@@ -2,13 +2,16 @@ Email Spam Detection
 
 Project Description
 
-This is a simple Email Spam Detection project using Python and Machine Learning.
+Email Spam Detection is a Python-based Machine Learning project that identifies whether an email message is Spam or Not Spam.
+
+The project uses a trained Machine Learning model to classify email messages and provides a simple user interface using Streamlit.
 
 Features
 
-- Detects whether an email is Spam or Not Spam.
+- Detects Spam and Not Spam emails.
 - Uses a trained Machine Learning model.
-- Simple and easy-to-use interface.
+- Simple and user-friendly interface.
+- Provides quick prediction results.
 
 Technologies Used
 
@@ -16,16 +19,33 @@ Technologies Used
 - Machine Learning
 - Streamlit
 - Scikit-learn
+- Joblib
 
 Project Files
 
-- main.py
-- train_model.py
-- spam_model.pkl
-- requirements.txt
+- "main.py" – Main application file.
+- "train_model.py" – Model training file.
+- "spam_model.pkl" – Trained Machine Learning model.
+- "requirements.txt" – Required Python libraries.
+- "README.md" – Project documentation.
+
+Installation
+
+Install the required libraries using:
+pip install -r requirements.txt
 
 How to Run
 
-1. Install the required libraries.
-2. Run the main.py file.
-3. Enter an email message to check whether it is Spam or Not Spam.
+Run the following command in the terminal:
+streamlit run main.py
+
+Working
+
+1. User enters an email message.
+2. The application processes the entered text.
+3. The trained Machine Learning model analyzes the message.
+4. The result is displayed as Spam or Not Spam.
+
+Project Type
+
+B.Tech First Year – Python and Machine Learning Project
